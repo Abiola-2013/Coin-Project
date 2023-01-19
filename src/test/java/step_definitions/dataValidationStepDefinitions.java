@@ -76,7 +76,7 @@ public class dataValidationStepDefinitions extends Setup {
         homePage = new HomePage(driver);
         homePage.verifyName();
     }
-
+// this will close the browser
     @After
     public void tearDown() {
         driver.quit();
